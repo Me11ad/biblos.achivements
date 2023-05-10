@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'MADELikesSlab';
+	src: url('./fonts/madelikesslab.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/madelikesslab.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/madelikesslab.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/madelikesslab.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/madelikesslab.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/madelikesslab.svg#madelikesslab') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background: rgb(118,0,142);
+    background: linear-gradient(0deg, #5c0e9c 25%, #9a3bf3 50%);
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logotype {
+    display: flex;
+    justify-content: flex-start;
+    pointer-events: none;
+    width: 300px;
+    height: 275px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .menu-style {
+    padding-right: 50px;
+    pointer-events: none;
+  }
+
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+
+    .achivement-position{
+        display: flex;
+        align-items: center;
+    }
