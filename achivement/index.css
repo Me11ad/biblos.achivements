@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flexж
+}
+.alert{
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    min-width: 400px;
+    justify-content: space-between;
+}
